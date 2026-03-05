@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+DIR="${1:-.}"
+
+if [[ ! -d "$DIR" ]]; then
+    echo "Error: '$DIR' is not a valid directory." >&2
+    exit 1
+fi
+
+shopt -s nullglob
+
+count=0
+for filepath in "$DIR"/*; do
+    [[ -f "$filepath" ]] || continue
+    mv -- "$filepath" "${filepath}.m3u8"
+    ((count++)) || true
+done
+
+echo "Renamed $count file(s) in '$DIR'."
