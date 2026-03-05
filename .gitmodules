@@ -19,3 +19,6 @@
 [submodule "ott1"]
 	path = ott1
 	url = https://github.com/Simatwa/ott.git
+[submodule "lalajo"]
+	path = lalajo
+	url = https://github.com/mimipipi22/lalajo.git
