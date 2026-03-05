@@ -16,3 +16,6 @@
 [submodule "ott"]
 	path = ott
 	url = https://github.com/Zoom-Adr/ott.git
+[submodule "ott1"]
+	path = ott1
+	url = https://github.com/Simatwa/ott.git
