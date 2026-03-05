@@ -1,0 +1,18 @@
+[submodule "122"]
+	path = 122
+	url = https://github.com/got7ar/122.git
+[submodule "ai"]
+	path = ai
+	url = https://github.com/englishcd/ai.git
+[submodule "match"]
+	path = match
+	url = https://github.com/hasanhabibmottakin/match.git
+[submodule "Aurora"]
+	path = Aurora
+	url = https://github.com/spark0321/Aurora.git
+[submodule "wildan411"]
+	path = wildan411
+	url = https://github.com/wildan411/wildan411.git
+[submodule "ott"]
+	path = ott
+	url = https://github.com/Zoom-Adr/ott.git
