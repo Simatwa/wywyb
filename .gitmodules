@@ -22,3 +22,6 @@
 [submodule "lalajo"]
 	path = lalajo
 	url = https://github.com/mimipipi22/lalajo.git
+[submodule "bgiv"]
+	path = bgiv
+	url = https://github.com/iptv-org/iptv.git
